@@ -1,0 +1,86 @@
+@media only screen and (max-width: 449px) and (min-width: 361px){
+	header{
+		min-width:100%;
+	}
+	header #logo{
+		font-size: 3vw;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	#mainNav{
+		left: 50%;
+		transform: translate(-50%);
+		height: unset;
+	}
+	#mainNav a, nav .dropdown .button{
+		font-size: 3vw;
+		padding: 5px;
+	}
+	#navLinks{
+		min-width: unset;
+	}
+	/* end header and nav */
+	
+	#flex{
+		display: unset;
+	}
+	#main{
+		width: 100%;
+		padding: 0;
+		font-size: 2.8vw;
+		height: unset;
+	}
+	#list1, #list3{
+		left: 70px;
+	}
+	#list2, #list4{
+		right: 40px;
+	}
+	body{
+		width: 100%;
+	}
+	.about{
+		padding: 5px;
+	}
+	aside{
+		width: 100%;
+		padding: 0;
+		min-height: 0;
+		background-color: #fcf7ed;
+	}
+	#main h1, aside h1{
+		margin: 20px 0 40px;
+		font-size: 4.5vw;
+	}
+	#main h2{
+		margin: 20px 0 20px;
+		font-size: 3.5vw;
+	}
+	.air{
+		display: none;
+	}
+	aside #video{
+		margin: 0;
+		padding: 20px 0;
+	}
+	#video iframe{
+		width: 100%;
+		height: 100%;
+	}
+	/* footer */
+	#main_footer{
+		width: 100%;
+	}
+	#main_footer h3{
+		font-size: 3.5vw;
+		width: max-content;
+	}
+	#main_footer #social{
+		font-size: 3.5vw;
+		margin: 5px 15px;
+	}
+	#foot_wrap{
+		display: unset;
+	}
+}

@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1225px) and (min-width: 900px){  /* 900 so main and aside are at least same width */
+	header{
+		min-width:100%;
+	}
+	header #logo{
+		font-size: 1.2vw;
+	}
+	#mainNav{
+		left: 100px;
+		height: unset;
+	}
+	#mainNav a, nav .dropdown .button{
+		font-size: 2vw;
+	}
+	#mainNav a{
+		padding: 14px 8px;
+	}
+	/* end header and nav */
+	
+	#main{
+		width: 100%;
+		padding: 0;
+		font-size: 1.5vw;
+	}
+	.around{
+		margin-bottom: 20px;
+	}
+	#list1, #list3{
+		left: 70px;
+	}
+	#list2, #list4{
+		right: 40px;
+	}
+	body{
+		width: 100%;
+	}
+	.about{
+		padding: 5px;
+	}
+	aside{
+		width: 100%;
+		padding: 5px;
+	}
+	#main h1, aside h1{
+		margin: 20px 0 40px;
+		font-size: 2.5vw;
+	}
+	aside h1{
+		margin: 20px 0 24px;
+	}
+	#main h2{
+		margin: 20px 0 20px;
+		font-size: 2vw;
+	}
+	aside #video{
+		margin: 0;
+		padding: 20px 0;
+		width: 450px;
+	}
+	/* footer */
+	#foot_wrap{
+		width: max-content;
+	}
+	#main_footer h3, #social{
+		font-size: 1.6vw;
+	}
+}
