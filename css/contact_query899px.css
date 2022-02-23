@@ -1,0 +1,71 @@
+@media only screen and (max-width: 899px) and (min-width: 769px){
+	#wrapper{
+		height: 1024px;
+	}
+	#flex{
+		display: flex;
+		height: 100%;
+	}
+	.contact .div1,.div2,.div3{
+		position: relative;
+		padding: 15px 0;
+		display: block;
+		float:left;
+		width:100%;
+	}
+	.contact .div1{
+		left: unset;
+	}
+	.contact .div2{
+		bottom: unset;
+	}
+	.contact .div3{
+		bottom: unset;
+		left: unset;
+	}
+	.main .center{
+		width: 85%;
+	}
+	.main .contact{
+		display: flex;
+		overflow: hidden;
+		margin: unset;
+}
+	.main h1{
+		font-size: 3.5vw;
+	}
+	.main h2{
+		font-size: 2.5vw;
+	}
+	.main p{
+		font-size: 2vw;
+	}
+	.main{
+		width:100%;
+		margin: unset;
+		margin-top: 40px;
+	}
+	.div2 button{
+		padding: 1vw;
+		font-size: 1.8vw;
+	}
+	#hidden{
+		width: 100%;
+		max-width: 600px;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.inputBoth, .inputText{
+		margin: 0 0 5px 15px;
+	}
+	input[type="submit"] {
+	  margin: 10px 0 0 18px;
+	}
+	.contactHeader h1 {
+		font-size: 4vw;
+	}
+	.contactHeader{
+		height: 13vh;
+	}
+}

@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1225px) and (min-width: 900px){
+	#wrapper{
+		height: 1024px;
+	}
+	#flex{
+		display: flex;
+		height: 100%;
+	}
+	.contact .div1,.div2,.div3{
+		position: relative;
+		padding: 15px 0;
+		display: block;
+		float:left;
+		width:100%;
+	}
+	.contact .div1{
+		left: unset;
+	}
+	.contact .div2{
+		bottom: unset;
+	}
+	.contact .div3{
+		bottom: unset;
+		left: unset;
+	}
+	.main #center{
+		width: unset;
+	}
+	.main .contact{
+		display: flex;
+	}
+	.main h1{
+		font-size: 3vw;
+	}
+	.main h2{
+		font-size: 2vw;
+	}
+	.main p{
+		font-size: 1.5vw;
+	}
+	.main{
+		margin-top: 40px;
+		width:85%;
+	}
+	.div2 button{
+		padding: 1vw;
+		font-size: 1.3vw;
+	}
+	#hidden{
+		width: 100%;
+		max-width: 600px;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	.inputBoth, .inputText{
+		margin: 0 0 5px 15px;
+	}
+	input[type="submit"] {
+	  margin: 10px 0 0 18px;
+	}
+	.contactHeader h1 {
+		font-size: 4vw;
+	}
+	.map-responsive{
+		overflow:unset;
+		padding-bottom:unset;
+		position:unset;
+		height:unset;
+	}
+	.map-responsive iframe{
+		left:unset;
+		top:unset;
+		height: revert-layer;
+		width:100%;
+		position:unset;
+	}
+
+}

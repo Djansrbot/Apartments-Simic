@@ -1,0 +1,73 @@
+@media only screen and (max-width: 768px) and (min-width: 450px){
+	header{
+		min-width:100%;
+	}
+	header #logo{
+		font-size: 2.4vw;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	#mainNav{
+		left: 50%;
+		transform: translate(-50%);
+		height: unset;
+	}
+	#mainNav a, nav .dropdown .button{
+		font-size: 2.3vw;
+		padding: 5px;
+	}
+	#navLinks{
+		min-width: unset;
+	}
+	/* end header and nav */
+	
+	#about_me{
+		display: block;
+	}
+	#about_me img{
+		width: 25vw;
+		height: 25vw;
+		margin: 50px 0;
+		border-radius: 50%;
+		border: 4px solid orange;
+		position: relative;
+		top: unset;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	#about_me p{
+		width: 100%;
+		height: fit-content;
+		margin-left: 0;
+		margin-right: 0;	
+	}
+	#text{
+		position: unset;
+		top: unset;
+		transform: unset;
+		margin: auto;
+		width: unset;
+	}
+	#left, #right{
+		width: 80%;
+		height: 100%;
+	}
+	
+	/* footer */
+	#main_footer{
+		width: 100%;
+		clear: both;
+	}
+	#main_footer h3{
+		font-size: 3vw;
+		width: max-content;
+	}
+	#main_footer #social{
+		font-size: 3vw;
+		margin: 5px 15px;
+	}
+	#foot_wrap{
+		display: unset;
+	}
+}

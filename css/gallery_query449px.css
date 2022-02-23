@@ -1,0 +1,5 @@
+@media only screen and (max-width: 449px) and (min-width: 361px){
+	.main h1{
+		font-size: 7.5vw;
+	}
+}

@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1225px) and (min-width: 900px){
+	header #logo{
+		font-size: 1.4vw;
+	}
+	#mainNav{
+		left: 125px;
+	}
+	#mainNav a, nav .dropdown .button{
+		font-size: 1.6vw;
+	}
+	#main h1, aside h1{
+		margin: 20px 0 40px;
+		font-size: 2.8vw;
+	}
+	#main h2{
+		margin: 20px 0 20px;
+		font-size: 2vw;
+	}
+	#main p{
+		font-size: 1.5vw;
+	}
+	.slideshow-container{
+		max-width: 500px;
+	}
+	section{
+		margin-bottom: 20px;
+	}
+	.about{
+		width:100%;
+	}
+	.text{
+		font-size: 1.3vw;
+	}
+	aside{
+		padding-bottom: 20px;
+	}
+	aside h1{
+		margin-bottom: 24px;
+	}
+	#main_footer h3{
+		font-size: 1.5vw;
+	}
+	#main_footer #social{
+		font-size: 1.5vw;
+	}
+}

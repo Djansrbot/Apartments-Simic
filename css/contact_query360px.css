@@ -1,0 +1,56 @@
+@media only screen and (max-width: 360px){
+	.main .contact{
+		display: block;
+		overflow: hidden;
+	}
+	.contact .div1,.div2,.div3{
+	display: block;
+	position: relative;
+	background-color: #d6d6d6;
+	margin: 10px 0;
+	padding: 15px 0;
+}
+.contact .div1{
+	left: unset;
+}
+.contact .div2{
+	bottom: unset;
+}
+.contact .div3{
+	left: unset;
+	bottom: unset;
+}
+#flex{
+	display: flex;
+}
+.main h1, h2, p{
+	font-size: 5vw;
+}
+.main h1{
+	font-size: 6vw;
+}
+.main{
+	width:100%;
+}
+.main #center{
+	width: unset;
+}
+.div2 button{
+	padding: 4vw;
+	font-size: 3.5vw;
+}
+#hidden{
+	width: 100%;
+}
+.inputBoth, .inputText{
+	margin: 0 0 5px 15px;
+}
+input[type="submit"] {
+  margin: 10px 0 0 18px;
+}
+.contactHeader h1 {
+	font-size: 6.5vw;
+}
+.contactHeader{
+	height: 20vh;
+}

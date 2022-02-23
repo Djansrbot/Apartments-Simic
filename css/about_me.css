@@ -1,0 +1,50 @@
+
+#about_me{
+	background-color: #d6d6d6;
+	width: 100%;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	padding-top: 100px;
+	padding-bottom: 22%;		/* NEW */
+}
+#about_me img{
+	width: 15vw;			/* CHANGED FROM 250px */
+	height: 15vw;			/* CHANGED FROM 250px */
+	margin: 0;				/* CHANGED FROM 20px */
+	border-radius: 50%;
+	border: 4px solid orange;
+	position: relative;		/* CHANGED FROM absolute */
+	top: unset;				/* CHANGED FROM 50% */
+	left: 50%;
+	transform: translate(-50%);		/* CHANGED FROM (-50%,-50%) */
+}
+#about_me h1{		
+	text-align: center;
+	margin: 0 0 25px;				/* CHANGED FROM 0 */
+	color: orange;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#about_me p{
+	text-align: justify;
+	width: 100%;					/* CHANGED FROM 350px */
+	height: fit-content;
+	/*margin: 25px;*/			/* NEW */
+	margin-left: 0;				/* NEW */
+	margin-right: 0;			/* NEW */
+}
+#text{
+	/*position: absolute;*/	/* NEW */
+	/*top: 50%;*/				/* NEW */
+	left: 50%;
+	/*transform: translate(-50%,-50%);*/	/* NEW */
+	margin: auto;				/* NEW */
+	padding: 25px;			/* NEW */
+	width: 50%;				/* NEW */
+}
+#left, #right{
+	width: 100%;				/* CHANGED FROM 50% */
+	height: 100%;				/* CHANGED FROM 65vh */
+	position: relative;
+	margin: auto;				/* NEW */
+}

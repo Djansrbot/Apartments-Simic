@@ -1,0 +1,48 @@
+
+.main{
+	min-height:65vh;
+	width: 100%;
+	background-color:#d6d6d6;
+	padding:35px 0;
+	margin:0;
+}
+.main h1,h2{
+	text-align: center;
+	margin: 0 0 15px;
+	color: orange;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 2.8vw; /* new */
+}
+
+.main .row{
+	flex-wrap: wrap;
+	display: flex;
+	padding:0 4px;
+	margin: auto;
+	width: 85%;
+	background-color: #c9c9c9;
+}
+.column{
+	flex: 25%;
+	padding: 0 4px;
+}
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+.column .margin{
+	margin-top:1px;
+}/*
+@media screen and (max-width: 800px){
+	.column{
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+@media screen and (max-width: 600px){
+	.column{
+		flex: 100%;
+		max-width: 100%;
+	}
+}*/

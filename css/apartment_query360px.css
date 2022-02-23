@@ -1,0 +1,22 @@
+@media only screen and (max-width: 360px){
+	.about{
+		width:100%;
+	}
+	#main h1, aside h1{
+		margin: 20px 0 40px;
+		font-size: 6vw;
+	}
+	#main h2{
+		margin: 20px 0 20px;
+		font-size: 5vw;
+	}
+	#main p{
+		font-size: 3vw;
+	}
+	section{
+		margin-bottom: 20px;
+	}
+	.text{
+		font-size: 4vw;
+	}
+}

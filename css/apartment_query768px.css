@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px) and (min-width: 450px){
+	header #logo{
+		font-size: 2vw;
+	}
+	#main h1, aside h1{
+		margin: 20px 0 40px;
+		font-size: 4vw;
+	}
+	#main h2{
+		margin: 20px 0 20px;
+		font-size: 3vw;
+	}
+	#main p{
+		font-size: 2vw;
+	}
+	.slideshow-container{
+		max-width: 450px;
+	}
+	section{
+		margin-bottom: 20px;
+	}
+	.about{
+		width:100%;
+	}
+	.text{
+		font-size: 2vw;
+	}
+	aside{
+		padding-bottom: 20px;
+	}
+	aside h1{
+		margin-bottom: 30px;
+	}
+	#main_footer h3{
+		font-size: 2.5vw;
+	}
+	#main_footer #social{
+		font-size: 2.5vw;
+	}
+}
